@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijoux en Acier Inoxydable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .product {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 0.5rem 0;
+        }
+        .product p {
+            color: #777;
+        }
+        .product button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bijoux en Acier Inoxydable</h1>
+    </header>
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="#products">Nos Produits</a>
+        <a href="#about">À Propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero" id="home">
+        <h1>Élégance et Durabilité</h1>
+        <p>Découvrez nos bijoux conçus pour briller avec vous.</p>
+    </section>
+    <section class="container" id="products">
+        <h2>Nos Produits</h2>
+        <div class="products">
+            <div class="product">
+                <img src="bracelet.jpg" alt="Bracelet en acier inoxydable">
+                <h3>Bracelet Élégant</h3>
+                <p>39,99 €</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="collier.jpg" alt="Collier en acier inoxydable">
+                <h3>Collier Minimaliste</h3>
+                <p>49,99 €</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="bague.jpg" alt="Bague en acier inoxydable">
+                <h3>Bague Moderne</h3>
+                <p>29,99 €</p>
+                <button>Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="about">
+        <h2>À Propos</h2>
+        <p>Chez [Nom de votre entreprise], nous croyons que la beauté réside dans la simplicité et la qualité. Nos bijoux en acier inoxydable sont conçus pour durer et sublimer votre style au quotidien.</p>
+    </section>
+    <section class="container" id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Email : contact@votreentreprise.com</p>
+        <p>Téléphone : 01 23 45 67 89</p>
+        <p>Adresse : 123 Rue de la Mode, Paris</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bijoux en Acier Inoxydable. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
